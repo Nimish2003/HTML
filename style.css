@@ -9,8 +9,13 @@ body {
     line-height: 1.6;
 }
 
-.Hello {
+#Home {
     background-color: #dedde2;    ;
+    height: 100vh ;
+    width: 100%;
+}
+#work-exp{
+    background-color: #706a8c ;
     height: 100vh;
     width: 100%;
 }
