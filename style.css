@@ -8,11 +8,27 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
+#Home{
+    background-color: #dedde2;    ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
 
-#Home {
-  background-color: #dedde2;
-  height: 100vh;
-  width: 100%;
+.Home {
+    display: flex;
+    margin-left: 10%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.button_row{
+    display: flex;
+    justify-content: space-evenly;
+
 }
 #work-exp {
   background-color: #706a8c;
@@ -20,8 +36,10 @@ body {
   width: 100%;
 }
 
-.Hello > h1 {
-  color: blue;
+#Home > h1{
+    display: flex;
+    justify-content: start;
+    color: blue;
 }
 
 nav {
@@ -50,21 +68,9 @@ footer {
   background-color: #dedde2;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-evenly;
+.footer{
+    display: flex;
 }
 
-.footer ul {
-  list-style: none;
-}
 
-.footer > div {
-  width: 223px;
-  margin: 23px 123px;
-}
-
-footer.footer-rights {
-  color: #706a8c;
-  padding: 12px 0;
-}
+  
