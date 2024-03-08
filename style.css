@@ -17,15 +17,16 @@ body {
 }
 
 .Home {
-  display: flex;
-  margin-left: 10%;
-  flex-direction: column;
-  justify-content: space-evenly;
+    display: flex;
+    margin-left: 10%;
+    flex-direction: column;
 }
 
-.button_row {
-  display: flex;
-  justify-content: space-evenly;
+
+.button_row{
+    display: flex;
+    justify-content: space-evenly;
+
 }
 #work-exp {
   background-color: #706a8c;
@@ -124,22 +125,41 @@ nav ul li a:hover {
   margin-bottom: 5px;
 }
 
-.footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-  padding-top: 20px;
-  border-top: 1px solid #ccc;
+.footer{
+    display: flex;
 }
 
-/*.footer-section.contact {
-  color: black;
-}*/
-
-.footer-section.contact a {
-  color: blue;
-  text-decoration: none; /* Remove underline from links */
+.Hi{
+    font-size:  2rem;;
+    font-weight:bold ;
+    color: rgb(10, 154, 250);
 }
 
-.footer-section.contact a:hover {
-  color: purple;
+#name{
+    font-size: 5rem;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+  
 }
+
+#profession{
+    color: black;
+    font-size: 2rem;
+    font-weight:bold ; 
+}
+
+#description{
+  color: grey;
+  font-size: 1.5rem;
+
+}
+
+/* .profile{
+  height:  30vh;
+  width:  80%;
+  position: absolute;
+  top: -7vh;
+  left: 6vw;
+  border-radius: 50%
+} */
