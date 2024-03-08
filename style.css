@@ -1,12 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 #Home{
     background-color: #dedde2;    ;
@@ -30,10 +30,10 @@ body {
     justify-content: space-evenly;
 
 }
-#work-exp{
-    background-color: #706a8c ;
-    height: 100vh;
-    width: 100%;
+#work-exp {
+  background-color: #706a8c;
+  height: 100vh;
+  width: 100%;
 }
 
 #Home > h1{
@@ -42,30 +42,30 @@ body {
     color: blue;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;      /* To distribute space evenly */
-    align-items: center ;
-    height: 80px;
-    background-color: rgb(254, 254, 254);
+nav {
+  display: flex;
+  justify-content: space-around; /* To distribute space evenly */
+  align-items: center;
+  height: 80px;
+  background-color: rgb(254, 254, 254);
 }
 
-nav ul{
-    display: flex;
-    justify-content: centers;
+nav ul {
+  display: flex;
+  justify-content: centers;
 }
 
-nav ul li{
-    list-style: none;           /*dont want bullets*/
-    margin: 0 23px;
-    font-size: 20px;
+nav ul li {
+  list-style: none; /*dont want bullets*/
+  margin: 0 23px;
+  font-size: 20px;
 }
 
-.left{
-    font-size: 2rem;
+.left {
+  font-size: 2rem;
 }
-footer{
-    background-color: #dedde2;
+footer {
+  background-color: #dedde2;
 }
 
 .footer{
