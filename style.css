@@ -18,3 +18,19 @@ body {
 .Hello > h1{
     color: blue;
 }
+
+nav{
+    display: flex;
+    justify-content: space-around;      /* To distribute space evenly */
+    align-items: center ;
+}
+
+nav ul{
+    display: flex;
+    justify-content: centers;
+}
+
+nav ul li{
+    list-style: none;           /*dont want bullets*/
+    margin: 0 23px;
+}
