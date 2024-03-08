@@ -8,11 +8,27 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
-
-#Home {
+#Home{
     background-color: #dedde2;    ;
-    height: 100vh ;
+    height: 100vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Home {
+    display: flex;
+    margin-left: 10%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.button_row{
+    display: flex;
+    justify-content: space-evenly;
+
 }
 #work-exp{
     background-color: #706a8c ;
@@ -20,7 +36,9 @@ body {
     width: 100%;
 }
 
-.Hello > h1{
+#Home > h1{
+    display: flex;
+    justify-content: start;
     color: blue;
 }
 
@@ -53,3 +71,6 @@ footer{
 .footer{
     display: flex;
 }
+
+
+  
