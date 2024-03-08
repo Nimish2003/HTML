@@ -41,3 +41,10 @@ nav ul li{
 .left{
     font-size: 2rem;
 }
+footer{
+    background-color: #dedde2;
+}
+
+.footer{
+    display: flex;
+}
