@@ -23,6 +23,8 @@ nav{
     display: flex;
     justify-content: space-around;      /* To distribute space evenly */
     align-items: center ;
+    height: 80px;
+    background-color: rgb(127, 183, 140);
 }
 
 nav ul{
@@ -33,4 +35,9 @@ nav ul{
 nav ul li{
     list-style: none;           /*dont want bullets*/
     margin: 0 23px;
+    font-size: 20px;
+}
+
+.left{
+    font-size: 2rem;
 }
