@@ -28,6 +28,8 @@ nav{
     display: flex;
     justify-content: space-around;      /* To distribute space evenly */
     align-items: center ;
+    height: 80px;
+    background-color: rgb(254, 254, 254);
 }
 
 nav ul{
@@ -38,13 +40,9 @@ nav ul{
 nav ul li{
     list-style: none;           /*dont want bullets*/
     margin: 0 23px;
+    font-size: 20px;
 }
 
-#typing {
-    overflow: hidden;
-    width: 0;
-    animation-play-state: running ;
-    color: black;
-    /* animation: blink 0.5 infinite;
-*/} 
-
+.left{
+    font-size: 2rem;
+}
