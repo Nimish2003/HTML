@@ -53,12 +53,16 @@ nav {
   justify-content: space-around; /* To distribute space evenly */
   align-items: center;
   height: 80px;
-  background-color: rgb(254, 254, 254);
+  background-color: #999;
+}
+.left {
+  font-weight: bolder;
+  font-size: x-large;
 }
 
 nav ul {
   display: flex;
-  justify-content: centers;
+  justify-content: center;
 }
 
 nav ul li {
@@ -70,18 +74,101 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: black;
+  font-weight: 500;
 }
 
 nav ul li a:hover {
-  color: peru;
+  color: white;
   /*font-size: 20.5px;*/
 }
-
+hr {
+  border: 0;
+  background: #333;
+  height: 1.2px;
+  margin: 40px 84px;
+}
 .left {
   font-size: 2rem;
 }
 
-.footer-content {
+#projects {
+  padding: 50px 0;
+  background-color: #6252a5;
+}
+
+.project-item {
+  margin-bottom: 30px;
+}
+
+.project-item h3 {
+  margin-bottom: 5px;
+}
+
+.project-item p {
+  margin-bottom: 10px;
+}
+
+.project-item a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #333;
+  padding: 5px 10px;
+}
+
+.project-item a:hover {
+  background-color: #555454;
+  color: #fff;
+}
+
+
+#work-experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;  
+
+  background-color: #dedde2;
+}
+
+.Position {
+  display: flex;
+}
+
+.job {
+  margin-bottom: 30px;
+}
+#work-experience h2 {
+  font-size: 24px;  
+  font-weight: bold; 
+  text-decoration: underline; 
+  text-underline-position: under;  
+  color: #333;  
+  display: flex;
+  justify-content: center;
+}
+
+.job h3 {
+  margin-top: 50px; 
+  color: #333; 
+}
+
+.job p {
+  margin-bottom: 10px; }
+
+.company {
+  font-weight: bold;  
+}
+
+.dates {
+  color: #666;  }
+
+.responsibilities {
+  color: #444;   
+}
+
+
+/*.footer-content {
   display: flex;
   justify-content: space-between;
 }
@@ -103,15 +190,72 @@ nav ul li a:hover {
   margin-bottom: 5px;
 }
 
-.footer{
-    display: flex;
+.footer {
+  display: flex;
+}*/
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
 }
 
-.Hi{
-    font-size:  5rem;;
-    font-weight:bold ;
-    color: rgb(10, 154, 250);
-    height: fit-content;
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items at the top */
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px; /* Add spacing between sections */
+}
+
+.footer-section h3 {
+  margin-bottom: 15px; /* Adjust margin */
+  color: #ffc107; /* Change text color */
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px; /* Adjust spacing */
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #ccc; /* Change text color */
+}
+
+.footer-section ul li a:hover {
+  color: #ffc107; /* Change text color on hover */
+}
+
+.footer-section.contact a {
+  text-decoration: none;
+  color: #fff; /* Set text color to white */
+}
+
+.footer-section.contact a:hover {
+  color: #ffc107; /* Change text color on hover to yellow */
+}
+.footer-bottom {
+  text-align: center;
+  color: #999; /* Slightly different color from #ccc */
+  padding: 10px 0; /* Add padding to create space around the footer bottom text */
+}
+
+.footer-section.links {
+  margin-left: 110px;
+}
+
+.Hi {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(10, 154, 250);
 }
 
 
@@ -131,7 +275,7 @@ nav ul li a:hover {
     height: fit-content;
 }
 
-#description{
+#description {
   color: grey;
   font-size: 2.5rem;
   height: fit-content;
