@@ -71,7 +71,12 @@ nav ul li a:hover {
   color: white;
   /*font-size: 20.5px;*/
 }
-
+hr {
+  border: 0;
+  background: #333;
+  height: 1.2px;
+  margin: 40px 84px;
+}
 .left {
   font-size: 2rem;
 }
@@ -107,10 +112,11 @@ nav ul li a:hover {
   color: #fff;
 }
 
+
 #work-experience {
   display: flex;
   flex-direction: column;
-  justify-content: space-around; /* To distribute space evenly */
+  justify-content: space-around;  To distribute space evenly 
 
   background-color: #dedde2;
 }
@@ -120,38 +126,39 @@ nav ul li a:hover {
 }
 
 .job {
-  margin-bottom: 30px; /* Add margin between each job entry */
+  margin-bottom: 30px;  Add margin between each job entry 
 }
 #work-experience h2 {
-  font-size: 24px; /* Set the font size */
-  font-weight: bold; /* Make the text bold */
-  text-decoration: underline; /* Add underline */
-  text-underline-position: under; /* Position the underline under the text */
-  color: #333; /* Set the text color */
+  font-size: 24px;  Set the font size 
+  font-weight: bold;  Make the text bold 
+  text-decoration: underline;  Add underline 
+  text-underline-position: under;  Position the underline under the text 
+  color: #333;  Set the text color 
   display: flex;
   justify-content: center;
 }
 
 .job h3 {
-  margin-top: 50px; /* Add margin below job title */
-  color: #333; /* Set color for job title */
+  margin-top: 50px;  Add margin below job title 
+  color: #333;  Set color for job title 
 }
 
 .job p {
-  margin-bottom: 10px; /* Add margin below each paragraph */
+  margin-bottom: 10px;  Add margin below each paragraph 
 }
 
 .company {
-  font-weight: bold; /* Make company name bold */
+  font-weight: bold;  Make company name bold 
 }
 
 .dates {
-  color: #666; /* Set color for dates */
+  color: #666;  Set color for dates 
 }
 
 .responsibilities {
-  color: #444; /* Set color for responsibilities */
+  color: #444;  Set color for responsibilities 
 }
+
 
 /*.footer-content {
   display: flex;
