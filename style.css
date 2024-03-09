@@ -13,21 +13,29 @@ body {
   height: 100vh;
   width: 100%;
   display: flex;
-  align-items: center;
+ flex-direction: column;
+ justify-content: center;
 }
 
-.Home {
-    display: flex;
-    margin-left: 10%;
-    flex-direction: column;
+.information{
+  display: flex;
+  /* margin-left:10%; */
+  row-gap: 5px;
+ 
 }
 
-
-.button_row{
-    display: flex;
-    justify-content: space-evenly;
-
+.personal{
+  padding-left: 10%;
+  margin-top: 4%;
 }
+
+.profile{
+ 
+ display: flex;
+ margin-left: 25%;
+ justify-content: flex-end;
+}
+
 #work-exp {
   background-color: #706a8c;
   height: 100vh;
@@ -100,36 +108,59 @@ nav ul li a:hover {
 }
 
 .Hi{
-    font-size:  2rem;;
+    font-size:  5rem;;
     font-weight:bold ;
     color: rgb(10, 154, 250);
+    height: fit-content;
 }
 
+
 #name{
-    font-size: 5rem;
+    font-size: 8rem;
     font-weight: bolder;
     padding: 0;
     margin: 0;
+    height: fit-content;
   
 }
 
 #profession{
     color: black;
-    font-size: 2rem;
-    font-weight:bold ; 
+    font-size: 5rem;
+    font-weight:bold;
+    height: fit-content;
 }
 
 #description{
   color: grey;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  height: fit-content;
 
 }
 
-/* .profile{
-  height:  30vh;
-  width:  80%;
-  position: absolute;
-  top: -7vh;
-  left: 6vw;
-  border-radius: 50%
-} */
+
+
+.profile img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+ 
+}
+
+.button_row > button{
+  border-color: rgb(50, 139, 223);
+  border-width:0.09cm;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 1cm;
+  padding: 1rem;
+  height: 3.5rem;
+  cursor: pointer;
+  transition: background-colour 0.3s,  colour 0.3s;
+  
+}
+
+.button_row button:hover {
+  background-color: rgb(50, 139, 223);
+  color: white;
+}
